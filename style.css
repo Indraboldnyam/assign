@@ -17,7 +17,6 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: bisque;
 }
 header h1{
     font-size: 25px;
@@ -32,8 +31,7 @@ header h1{
 .navbar{
     display: flex;
     justify-content: end;
-    text-align: center;
-
+    align-items: center;
 }
 .navbar ul{
     width: 500px;
@@ -74,7 +72,7 @@ nav{
 
 }
 .first .lefttext{
-    width: 50%;
+    width: 60%;
 }
 .first h2{
     color: #1D3444;
@@ -89,7 +87,9 @@ nav{
 }
 .first .anchor{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
     font-size: 18px;
 }
 .first .sbutton{
@@ -99,6 +99,8 @@ nav{
     background-color: #F58A07;
     border-radius: 40px;
     width: 200px;
+    display: flex;
+    justify-content: center;
 }
 .first a{
     text-decoration: none;
@@ -110,6 +112,7 @@ nav{
 .first .anch{
     color:#39414980;
     font-size: 18px;
+    margin-top: 40px;
 }
 .first .icons{
     display: flex;
