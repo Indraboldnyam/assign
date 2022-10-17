@@ -215,15 +215,34 @@ nav{
     width: 400px;
     height: 250px;
 }
-
-/* .third .feature div:nth-child(n){
-
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 20px;
-} */
 /* THIRD SECTION ENDS HERE */
 /* FOURTH SECTION STARTS HERE */
 .fourth{
+    margin: 100px 0;
+}
+.fourth .middle{
+    display:flex;
+}
+.fourth .fourthmain{
+    font-size: 45px;
+    color:#0D1317;
+}
+.fourth .fourthside{
+    font-size: 20px;
+    color:#5B5B5B;
+}
+.fourth .block{
     display: flex;
+}
+.fourth .orange{
+    font-size: 35px;
+    color: #F58A07;
+}
+.fourth .bold{
+    font-size: 25px;
+    font-style: bold;
+}
+.fourth .small{
+    font-size: 20px;
+    color: #5B5B5B;
 }
