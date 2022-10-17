@@ -220,12 +220,28 @@ nav{
 .fourth{
     margin: 100px 0;
 }
+.fourth img{
+    border-radius: 20px;
+    object-fit: cover;
+    position: relative;
+}
+/* .fourth .color{
+    background: rgba(245, 138, 7, 0.63);
+    height: 100%;
+    position: absolute;
+    width: 150px;
+
+} */
+.fourth .fourthleft{
+    padding: 25px;
+}
 .fourth .middle{
     display:flex;
 }
 .fourth .fourthmain{
     font-size: 45px;
     color:#0D1317;
+    line-height: 60px;
 }
 .fourth .fourthside{
     font-size: 20px;
