@@ -124,11 +124,106 @@ nav{
 /* FIRST SECTION ENDS */
 /* SECOND SECTION STARTS HERE */
 .second{
-    background-color: antiquewhite;
+    margin: 100px 0;
 }
-
+.second .maintext{
+    font-size: 45px;
+    width: 60%;
+    color: #1D3444;
+}
+.second .subtext{
+    font-size: 20px;
+    width: 60%;
+    color:#5B5B5B;
+    margin-bottom: 50px;
+}
+.second .post{
+   display: flex;
+   justify-content: space-between;
+}
+.second .ig{
+    width: 400px;
+}
 .second img{
     width: 400px; 
     height: 250px;
     border-radius: 10%;
+}
+.second .bold{
+    color: #0D1317;
+    font-size: 25px;
+    font-style: bold;
+}
+.second p{
+    color:#5B5B5B;
+    font-size: 20px;
+}
+.second .readmore{
+    color:#F58A07;
+    font-size: 20px;
+}
+.second .readmore::after{
+    content: "\2192";
+}
+/* SECOND SECTION ENDS HERE */
+/* THIRD SECTION STARTS HERE */
+.third{
+    background-color: #DCEAF5;
+    margin: 100px 0;
+    padding: 100px 0;
+
+}
+.third .thirdtext{
+    display: flex;
+    align-items: center;
+}
+.thirdtext p{
+    width: 50%;
+}
+.thirdtext p:first-child{
+    font-size: 45px;
+    color:#0D1317;
+}
+.thirdtext p:last-child{
+    font-size: 20px;
+    color:#1D3444;
+    line-height: 40px;
+}
+.third .bold{
+    color: #0D1317;
+    font-size: 25px;
+    font-style: bold;
+}
+.third .img{
+    width: 33px;
+    height: 34px;
+}
+.third .feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    width: 100%;
+}
+.feature .char{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px;
+}
+.feature div{
+    width: 400px;
+    height: 250px;
+}
+
+/* .third .feature div:nth-child(n){
+
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+} */
+/* THIRD SECTION ENDS HERE */
+/* FOURTH SECTION STARTS HERE */
+.fourth{
+    display: flex;
 }
